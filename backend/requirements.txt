@@ -1,0 +1,30 @@
+# ABOUTME: Python dependencies for the Brainwave learning platform backend
+# ABOUTME: Includes FastAPI, Supabase, AI integrations, and utility libraries
+
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Supabase
+supabase
+python-jose[cryptography]
+
+# AI/ML - Using APIs, no need for heavy local models
+google-generativeai
+
+# HTTP Client
+httpx
+aiohttp
+
+# Utilities
+python-dotenv
+pydantic
+pydantic-settings
+
+# Testing
+pytest
+pytest-asyncio
+
+# Scheduling (for periodic assignments)
+apscheduler
